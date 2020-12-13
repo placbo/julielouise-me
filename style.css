@@ -4,14 +4,14 @@
 }
 
 .backgrnd {
-  height: 80rem;
+  height: 250vw;
   width: 100%;
   background: rgb(131, 58, 180);
   background: linear-gradient(
     150deg,
     rgba(131, 58, 180, 1) 0%,
     rgba(227, 27, 221, 1) 0%,
-    rgba(250, 92, 92, 1) 100%
+    rgb(250, 187, 92) 100%
   );
   text-align: center;
 }
@@ -30,7 +30,7 @@
 }
 
 p {
-  font-size: 2rem;
+  font-size: 6vw;
   padding: 0.2rem;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -42,24 +42,35 @@ p {
 }
 
 .line2 {
-  font-size: 4rem;
+  font-size: 9vw;
   color: yellow;
 }
 
+.line3 {
+  margin-top: -0.5rem;
+  font-size: 6vw;
+}
+
 .line4 {
-  font-size: 1.5rem;
+  font-size: 4vw;
   font-weight: 300;
 }
 
 .line5 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 4vw;
   background-color: chartreuse;
   padding: 1rem;
   color: black;
   font-weight: 400;
   display: inline-block;
   animation: blinking 1.5s infinite;
+}
+
+.line6 {
+  margin-top: 1rem;
+  font-size: 4vw;
+  font-weight: 100;
 }
 
 @keyframes blinking {
@@ -71,20 +82,14 @@ p {
   }
 }
 
-.line6 {
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-weight: 100;
-}
-
 .imagewrapper {
-  height: 30rem;
+  width: 70vw;
   margin-top: 2rem;
 }
 
 .logo {
   position: absolute;
-  height: 100px;
+  width: 10vw;
   top: 0;
   left: 0;
   z-index: 1;
